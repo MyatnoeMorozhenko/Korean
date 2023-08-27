@@ -1,6 +1,6 @@
 import sqlite3 as sq
 
-db = sq.connect('/Users/alenaagafonova/PycharmProjects/?Korean/db/tg.db')
+db = sq.connect('/?Korean/db/tg.db')
 cur = db.cursor()
 
 async def db_start():
