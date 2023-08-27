@@ -42,27 +42,27 @@ dp = Dispatcher(bot=bot)
 
 #Превью файлов на вводный курс
 
-f = open('/Users/alenaagafonova/PycharmProjects/?Korean/enterylevel/Урок1.txt', encoding='utf-8')
+f = open('/?Korean/enterylevel/Урок1.txt', encoding='utf-8')
 u1 = f.read()
 f.close()
 
-fi = open('/Users/alenaagafonova/PycharmProjects/?Korean/Инструкция', encoding='utf-8')
+fi = open('/?Korean/Инструкция', encoding='utf-8')
 instruction = fi.read()
 fi.close()
 
-f2 = open('/Users/alenaagafonova/PycharmProjects/?Korean/enterylevel/Урок2', encoding='utf-8')
+f2 = open('/?Korean/enterylevel/Урок2', encoding='utf-8')
 u2 = f2.read()
 f2.close()
 
-f3 = open('/Users/alenaagafonova/PycharmProjects/?Korean/enterylevel/Урок3', encoding='utf-8')
+f3 = open('/?Korean/enterylevel/Урок3', encoding='utf-8')
 u3 = f3.read()
 f3.close()
 
-f4 = open('/Users/alenaagafonova/PycharmProjects/?Korean/enterylevel/Урок4', encoding='utf-8')
+f4 = open('/?Korean/enterylevel/Урок4', encoding='utf-8')
 u4 = f4.read()
 f4.close()
 
-f5 = open('/Users/alenaagafonova/PycharmProjects/?Korean/enterylevel/Урок5', encoding='utf-8')
+f5 = open('/?Korean/enterylevel/Урок5', encoding='utf-8')
 u5 = f5.read()
 f5.close()
 
@@ -94,7 +94,7 @@ async def process_pre_checkout_query(query: types.PreCheckoutQuery):
     await bot.send_message(chat_id=query.from_user.id, text = 'Спасибо за покупку. Теперь можешь продолжить обучение.', reply_markup=keyb_client_level1)
 
 # Домашнее задание №1
-photo = open('/Users/alenaagafonova/PycharmProjects/?Korean/db/sejong1.png', 'rb')
+photo = open('/?Korean/db/sejong1.png', 'rb')
 
 # Домашнее задание №2
 # Домашнее задание №3
