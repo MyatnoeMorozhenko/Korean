@@ -1,14 +1,16 @@
 # Korean
-<strong>Korean bot for learning language</strong>
+<strong>Korean bot for learning language:</strong>
+
 https://t.me/koreangrandma_bot
+
+Host on replit: https://replit.com/
+
+Database: SQLite 
 
 <i>The bot is designed as a help systemizing instument to learn Korean. The code contains news parser from https://honoraryreporters.korea.net/ and webapp development that is not yet available on stage.</i>
 
 Most of the materials for the course are added to Notion.
 
-Host on replit: https://replit.com/~
-
-Database: SQLite 
 
 # Comand Description
 
@@ -21,5 +23,10 @@ Database: SQLite
 
 <img width="727" alt="image" src="https://github.com/MyatnoeMorozhenko/Korean/assets/111291767/dc459f89-29b6-4b9d-9bdd-654548bc6bc8">
 
+<b>/get_news_rus</b> - to look through the articles from .json
+
+<b>/get_freshnews_rus</b> - to get the latest news
+
 # Help
-Support chat is available by button "Помощь" and is integrated with <i>Jira Service Management</i>. It may take some time to proccess a request. The details and instructions can be found in file <i>'Инструкция'</i>. The bot is yet only available for Russian speakers.
+Support chat is available by button "Помощь" and is integrated with <i>Jira Service Management</i>. It may take some time to proccess a request. 
+The details and instructions can be found in file <i>'Инструкция'</i>. The bot is yet only available for Russian speakers.
