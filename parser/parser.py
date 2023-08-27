@@ -33,11 +33,11 @@ def get_first_news():
             'article_url': article_url,
         }
 
-        with open('/Users/alenaagafonova/PycharmProjects/?Korean/parser/news_dict.json', 'w') as file:
+        with open('/?Korean/parser/news_dict.json', 'w') as file:
             json.dump(news_dict, file, indent =4, ensure_ascii=False)
 
 def check_news_updates():
-    with open('/Users/alenaagafonova/PycharmProjects/?Korean/parser/news_dict.json') as file:
+    with open('/?Korean/parser/news_dict.json') as file:
         news_dict = json.load(file)
     headers = {
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -72,7 +72,7 @@ def check_news_updates():
             'article_url': article_url
         }
 
-    with open('/Users/alenaagafonova/PycharmProjects/?Korean/parser/news_dict.json', 'w') as file:
+    with open('/?Korean/parser/news_dict.json', 'w') as file:
         json.dump(news_dict, file, indent=4, ensure_ascii=False)
 
     return fresh_news
